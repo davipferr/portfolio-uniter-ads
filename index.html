@@ -1,0 +1,152 @@
+<!DOCTYPE html5>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header>
+      <nav>
+        <a href="#sobre-mim">Sobre Mim</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <!-- Corpo da Página -->
+    <div class="aling-center card">
+
+      <!-- Seção Sobre Mim -->
+      <div id="sobre-mim">
+        <h1 class="text-center">Sobre Mim</h1>
+        <div>
+          <p>
+            No momento busco aprimorar minhas habilidades como Desenvolvedor Full Stack.
+            Atuo como Full Stack Developer Júnior, utilizando Vue.js, JavaScript, PHP e CSS 
+            para criar soluções web.
+          </p>
+          <p>
+            Além do código, gosto de ler, porque adoro explorar novos conhecimentos através dos livros.
+            Sempre estou pronto para aprender, para me desafiar.
+          </p>
+        </div>
+      </div>
+
+      <!-- Seção Formação -->
+      <div id="formacao">
+        <h1 class="text-center">Formação Educacional e Idiomas</h1>
+
+        <!-- Idiomas -->
+        <div>
+          <h2>Idiomas</h2>
+          <ul>
+            <li>
+              Português - Nativo
+            </li>
+            <li>
+              Inglês - Iniciante
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Formação Acadêmica -->
+        <div>
+          <h2 class="text-center">Formação Acadêmica</h2>
+          <ul>
+            <li>
+              <strong>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP</strong> - Ensino Técnico Integrado ao Médio
+              <p>2019 - 2021</p>
+            </li>
+            <li>
+              <strong>UNINTER Centro Universitário Internacional</strong> - Análise e Desenvolvimento de Sistemas
+              <p>2024 - 2026</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Seção Portfolio -->
+      <div id="portfolio">
+        <h1 class="text-center">Portfólio</h1>
+
+        <!-- 1º experiência - Constr UP -->
+        <div>
+          <div>
+            <h2 class="text-center">Desenvolvedor de Software - Constr Up</h2>
+            <span>Jan 2023 - Dez 2023 <mark>(1 ano)</mark> - Remoto</span>
+            <p>
+              A Constr Up é uma startup inovadora no mercado de materiais de construção. Integrei uma equipe enxuta de desenvolvedores, onde tive a oportunidade de assumir responsabilidades desafiadoras.
+            </p>
+          </div>
+
+          <div>
+            <h3>- Ação</h3>
+            <ul>
+              <li>Criei a interface visual e o back-end de novas funcionalidades para o sistema da Constr Up, utilizando Vue.js, Laravel (API) e MySQL, com foco na experiência do usuário e no desempenho.</li>
+              <li>Identifiquei e corrigi bugs no sistema, garantindo a melhor experiência possível para os usuários da plataforma.</li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3>- Resultado:</h3>
+            <p>
+              Contribuí para o sucesso da Constr Up ao fornecer aos usuários novas funcionalidades e uma experiência aprimorada, livre de bugs. Essa experiência consolidou a importância da comunicação eficiente em equipe, da busca constante pelas melhores soluções e da priorização da experiência do usuário.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2º experiência - Canuto Dev -->
+        <div>
+          <div>
+            <h2 class="text-center">Desenvolvedor de Software - Canuto Dev</h2>
+            <span>Dez 2021 - Jan 2023 <mark>(1 ano e 2 meses)</mark> - Tempo integral</span>
+            <p>
+              Na Canuto Dev, empresa de desenvolvimento de software e suporte técnico para o setor de bilhetagem, trabalhei em uma equipe maior e dinâmica.
+            </p>
+          </div>
+
+          <div>
+            <h3>- Ação:</h3>
+            <ul>
+              <li>Atuando como Desenvolvedor de Software, Analista de Suporte e Monitor de Rede, me deparei com uma gama diversificada de desafios.</li>
+              <li>Desenvolvi e corrigi o front-end e back-end de páginas web, utilizando Vue.js, C# (API), MongoDB e SQL.</li>
+              <li>Realizei análises, identificação e correção de bugs no sistema, buscando soluções eficazes e colaborando com a equipe.</li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3>- Resultado:</h3>
+            <p>
+              Minhas contribuições em desenvolvimento e correção de bugs resultaram em funcionalidades valiosas para o cliente, melhorando a experiência do usuário e prevenindo problemas. Essa experiência reforçou a importância da comunicação transparente e da busca pela excelência na experiência do cliente.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seção Contato -->
+      <div id="contato" class="contato margin-bottom-40">
+        <h1 class="text-center">Contato</h1>
+        <form> 
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"placeholder="Digite seu email">
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="5"></textarea>
+
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+      </div>
+
+    </div>
+  </body>
+</html>
